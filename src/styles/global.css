@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100;200;300;400;500;600;700&family=Cinzel+Decorative:wght@400;700;900&family=Cinzel:wght@400;500;600;700;800;900&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+/*
+font-family: 'Advent Pro', sans-serif;
+font-family: 'Cinzel', serif;
+font-family: 'Cinzel Decorative', cursive;
+font-family: 'Open Sans', sans-serif;
+*/
+
+:root {
+  --azulDark: #1B1E4B;
+  --azul: #2E326D;
+  --secondary: #C77129;
+  --bgPages: #fcefe6;
+  --white: #fff;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: 'open sans';
+  letter-spacing: -3.03;
+  background-color: var(--bgPages);
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"] {
+  font-size: 15px;
+  color: var(--secondary) !important;
+  height: 3.5rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+input[type="text"]:disabled,
+input[type="email"]:disabled,
+input[type="password"]:disabled,
+input[type="date"]:disabled {
+  background: #f6f5f5;
+  border: 1px solid var(--azulDark);
+  outline: none;
+  color: var(--secondary);
+}
+
+.btn {
+  font: size 15px !important;
+}
+
+.bgLinearGradient {
+  background-image: linear-gradient(to bottom, #303471, #2E326D, #212455, #191C48);
+}
+
+.bgSecondary {
+  background: var(--secondary) !important;
+}
+
+.btn-secondary,
+.btn-secondary:focus,
+.btn-secondary:active,
+.btn-secondary:disabled,
+.btn-secondary:hover {
+  background-color: var(--secondary) !important;
+  border-color: var(--secondary);
+}
+
+
+.loginPanel {
+  width: 85vw;
+  filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.4));
+}
+
+.loginLogo {
+  height: 90vh;
+  border-radius: 10px 0px 0px 10px;
+  background-color: var(--white);
+}
+
+.loginForm {
+  height: 90vh;
+  color: var(--white);
+  border-radius: 0px 10px 10px 0px;
+}
+
+.loginForm .titleFormLogin {
+  font-family: 'Cinzel Decorative';
+  font-weight: 600;
+  color: var(--secondary);
+  font-size: 2.3em;
+  text-align: center;
+}
+
+.loginForm .subTitleFormLogin {
+  font-family: 'Advent Pro';
+  letter-spacing: 0.03em;
+  font-weight: 300;
+  font-size: 1.3em;
+  line-height: 22px;
+}
+
+.loginForm .formLigin {
+  display: inline-block;
+  min-width: 120px;
+  max-width: 430px;
+}
+
+.loginForm .hadleSenha {
+  font-family: 'Cinzel';
+  color: var(--white);
+  text-decoration: none;
+  font-size: 13px;
+
+}
+
+
+
+.loginForm .formLigin input {
+  font-family: 'Advent Pro';
+  letter-spacing: 0.06em;
+  font-weight: 200;
+}
+
+.loginForm .formLigin .btn {
+  font: size 15px !important;
+  font-family: 'Advent Pro';
+  letter-spacing: 0.06em;
+}
