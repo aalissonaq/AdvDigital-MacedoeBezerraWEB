@@ -129,3 +129,39 @@ input[type="date"]:disabled {
   font-family: 'Advent Pro';
   letter-spacing: 0.06em;
 }
+
+.homeHeader {
+  background: #FFF5EE;
+  min-height: 6rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 82%;
+
+}
+
+.homeSiderBar {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 18%;
+}
+
+.homeSiderBar .siderBarTop {
+  height: 20%;
+}
+
+.homeSiderBar .contentMenuSiderBar {
+  height: 70%;
+}
+
+.homeMenu {
+  height: 60%;
+}
+
+.homeBrandCI {
+  position: absolute;
+  top: 90%;
+  left: 8rem;
+
+}
