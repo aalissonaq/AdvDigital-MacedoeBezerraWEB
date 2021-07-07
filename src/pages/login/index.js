@@ -15,7 +15,7 @@ const Login = () => {
                 <img src={LogoLight} className="img-fluid d-flex align-items-center justify-content-center mx-auto col-11 p-4 " alt="Logo" />
               </div>
             </div>
-            <div className="col-xs-12 col-sm-3 col-md-6 my-auto flex-column loginForm bgLinearGradient d-sm-rounded-3">
+            <div className="col-xs-12 col-sm-3 col-md-6 my-auto flex-column loginForm bgLinearGradient ">
               <div className="d-flex h-100 flex-column align-items-center justify-content-center">
                 <img src={LogoDark} className="img-fluid d-block d-sm-none mx-auto col-11 p-1 " alt="Logo" />
                 <h2 className="titleFormLogin mt-5 text-center">Bem-Vindo</h2>
