@@ -27,7 +27,8 @@ input[type="text"],
 input[type="email"],
 input[type="password"],
 input[type="date"] {
-  font-size: 15px;
+  font-size: 17px;
+  letter-spacing: 24px;
   color: var(--secondary) !important;
   height: 3.5rem;
 }
